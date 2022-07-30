@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\dearIMGUI">
+      <UniqueIdentifier>{e589cab9-34ad-4661-b747-a88f0293fed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MatricesPP">
+      <UniqueIdentifier>{1584a140-f7f2-4231-9914-cba01da4d841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{90bca756-8241-40c7-ba46-57a061cef933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{fdbbd0fe-6152-460f-91d4-b25fda6483bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GeoTIFF-Parser">
+      <UniqueIdentifier>{cc4f322e-a937-4d5c-b109-f6a8ccbce375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeoTIFF-Parser">
+      <UniqueIdentifier>{ae18960b-7751-4da6-b6eb-7391031b210c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MeshGeneration">
+      <UniqueIdentifier>{b64537ab-9650-438b-be28-1ca4c41f798e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MeshGeneration">
+      <UniqueIdentifier>{623d3125-fe8c-4f5e-9b16-dda5f07c4079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileIO">
+      <UniqueIdentifier>{34989e47-c23d-404d-b591-476561a07d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileIO">
+      <UniqueIdentifier>{73a03618-dbed-4ce7-b915-6edb448781fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModelImpl">
+      <UniqueIdentifier>{2688485e-dc5b-4bc4-b3e0-2b37c2e6254f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ModelImpl">
+      <UniqueIdentifier>{0b3053b9-e6f7-4b99-b193-1813567ab93f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dearIMGUI\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\dearIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dearIMGUI\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files\dearIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dearIMGUI\imgui_demo.cpp">
+      <Filter>Source Files\dearIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dearIMGUI\imgui_draw.cpp">
+      <Filter>Source Files\dearIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dearIMGUI\imgui_tables.cpp">
+      <Filter>Source Files\dearIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dearIMGUI\imgui_widgets.cpp">
+      <Filter>Source Files\dearIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dearIMGUI\imgui.cpp">
+      <Filter>Source Files\dearIMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MatricesPlusPlus\ArrayPP.cpp">
+      <Filter>Source Files\MatricesPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MatricesPlusPlus\VectorMaths.cpp">
+      <Filter>Source Files\MatricesPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MatricesPlusPlus\MatrixPP_f32.cpp">
+      <Filter>Source Files\MatricesPP</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Handler.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\MeshGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoTIFF-Parser\Decompressor.cpp">
+      <Filter>Source Files\GeoTIFF-Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoTIFF-Parser\GeoTIFF_Parser.cpp">
+      <Filter>Source Files\GeoTIFF-Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoTIFF-Parser\GeoTIFF_Parser_Globals.cpp">
+      <Filter>Source Files\GeoTIFF-Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatricesPlusPlus\VectorPP_f32.cpp">
+      <Filter>Source Files\MatricesPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MatricesPlusPlus\MatrixPP_f64.cpp">
+      <Filter>Source Files\MatricesPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MatricesPlusPlus\VectorPP_f64.cpp">
+      <Filter>Source Files\MatricesPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\MeshGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshGenerator.cpp">
+      <Filter>Source Files\MeshGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorFilesParsers\KML_Parser.cpp">
+      <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorFilesParsers\SHP_Parser.cpp">
+      <Filter>Source Files\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="GridMesh.cpp">
+      <Filter>Source Files\MeshGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelInterface.cpp">
+      <Filter>Source Files\ModelImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelImplementation.cpp">
+      <Filter>Source Files\ModelImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialDataModule.cpp">
+      <Filter>Source Files\ModelImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecipitationModule.cpp">
+      <Filter>Source Files\ModelImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers.cpp">
+      <Filter>Source Files\ModelImpl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.hpp">
+      <Filter>Header Files\MeshGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Requirements.hpp">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Handler.hpp">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.hpp">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.hpp">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoTIFF-Parser\GeoTIFF_Parser.h">
+      <Filter>Header Files\GeoTIFF-Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoTIFF-Parser\GeoTIFF_Parser_Globals.h">
+      <Filter>Header Files\GeoTIFF-Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoTIFF-Parser\Decompressor.h">
+      <Filter>Header Files\GeoTIFF-Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GridMesh.hpp">
+      <Filter>Header Files\MeshGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="FEM_Element.hpp">
+      <Filter>Header Files\MeshGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.hpp">
+      <Filter>Header Files\MeshGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshGenerator.hpp">
+      <Filter>Header Files\MeshGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.hpp">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorFilesParsers\Vector_File_Parser.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorFilesParsers\KML_Parser.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorFilesParsers\SHP_Parser.h">
+      <Filter>Header Files\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelInterface.hpp">
+      <Filter>Header Files\ModelImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelImplementation.hpp">
+      <Filter>Header Files\ModelImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelGlobals.hpp">
+      <Filter>Header Files\ModelImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrecipitationModule.hpp">
+      <Filter>Header Files\ModelImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialDataModule.hpp">
+      <Filter>Header Files\ModelImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers.hpp">
+      <Filter>Header Files\ModelImpl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>
